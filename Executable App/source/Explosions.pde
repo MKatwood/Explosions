@@ -146,7 +146,7 @@ class ColorPicker {
   noStroke();
   for (int i = 0; i < 750; i++) {
    for (int j = 0; j < 30; j++) {
-    fill(i / 750.0, j / 15.0, j / 15.0, 1.0);
+    fill(i / 750.0, j / 30.0, 1.0);
     rect(i, 470 + j, 1, 1);
    }
   }
